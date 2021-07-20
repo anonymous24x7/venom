@@ -18,7 +18,7 @@ sleep 2
 clear
 echo -e $b">"$r" Your computer is upgrading !!\n\n"$w
 sleep 2
-apt-get upgrade
+apt-get upgrade -y
 apt upgrade -y
 echo -e $r"\n\nYour computer has upgraded !!"$w
 sleep 2
@@ -53,7 +53,7 @@ clear
 echo -e $b"\n\n>"$w" Giving programs the pemissions to execute !!"
 sleep 2
 chmod +x venom.py
-chmod +x pld/msfinstall
+chmod +x tools/msfinstall
 
 echo -e $b">"$w" Installing package: "$g"Metasploit\n\n"$w
 sleep 2
