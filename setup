@@ -7,6 +7,9 @@ w="\033[0m"
 
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$r" Your computer is updating !!\n\n"$w
 sleep 2
 apt-get update -y
@@ -16,6 +19,9 @@ sleep 2
 
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$r" Your computer is upgrading !!\n\n"$w
 sleep 2
 apt-get upgrade -y
@@ -24,11 +30,17 @@ echo -e $r"\n\nYour computer has upgraded !!"$w
 sleep 2
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$w" Preparing to install dependencies for \n\n"
 echo -e $b">"$r"  VENOM"$w" - Payload Creator "
 sleep 3
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$w" Installing package: "$g"Python\n\n"$w
 sleep 2
 sudo apt-get install python -y
@@ -36,6 +48,9 @@ echo -e $b"\n\n>"$w" Installed package: "$g"Python"$w
 sleep 2
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$w" Installing package: "$g"Python2\n\n"$w
 sleep 2
 sudo apt-get install python2 -y
@@ -43,6 +58,9 @@ echo -e $b"\n\n>"$w" Installed package: "$g"Python2"$w
 sleep 2
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$w" Installing package: "$g"Python3\n\n"$w
 sleep 2
 sudo apt-get install python3 -y
@@ -50,22 +68,35 @@ echo -e $b"\n\n>"$w" Installed package: "$g"Python3"$w
 sleep 2
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
 echo -e $b"\n\n>"$w" Giving programs the pemissions to execute !!"
 sleep 2
 chmod +x venom.py
 chmod +x tools/msfinstall
+echo -e $b"\n\n>"$w"All the tools have been given the permission to execute."$w
+sleep 2
 
+clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$w" Installing package: "$g"Metasploit\n\n"$w
 sleep 2
 bash tools/msfinstall
 echo -e $b"\n\n>"$w"Installed package: "$g"Metasploit"$w
 sleep 2
 clear
+echo -e $w"\n\n"
+python3 banner.py
 
 echo -e $b"\n\n>"$w"The dependencies have been installed successfully !!"
 sleep 2
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $b">"$w" Removing unnecessary items... \n\n"$w
 sleep 2
 sudo apt autoremove -y
@@ -73,6 +104,9 @@ echo -e $b"\n\n>"$w"The unnecessary items have been removed successfully !!"
 sleep 2
 
 clear
+echo -e $w"\n\n"
+python3 banner.py
+echo -e $w"\n\n"
 echo -e $r"VENOM"$w" is starting !!"
 sleep 3
 
