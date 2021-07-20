@@ -48,4 +48,4 @@ https://imjo.in/QzaYw6    --INR Payments ONLY
 
 🖤🖤🖤
 
-#COPYRIGHT @Anonymous24x7
+# COPYRIGHT @Anonymous24x7
