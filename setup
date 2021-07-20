@@ -1,0 +1,81 @@
+#! /usr/bin/bash
+null="> /dev/null 2>&1"
+g="\033[1;32m"
+r="\033[1;31m"
+b="\033[1;34m"
+w="\033[0m"
+
+
+clear
+echo -e $b">"$r" Your computer is updating !!\n\n"$w
+sleep 2
+apt-get update -y
+apt update -y
+echo -e $r"\n\nYour computer has been updated !!"$w
+sleep 2
+
+
+clear
+echo -e $b">"$r" Your computer is upgrading !!\n\n"$w
+sleep 2
+apt-get upgrade
+apt upgrade -y
+echo -e $r"\n\nYour computer has upgraded !!"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Preparing to install dependencies for \n\n"
+echo -e $b">"$r"  VENOM"$w" - Payload Creator "
+sleep 3
+
+clear
+echo -e $b">"$w" Installing package: "$g"Python\n\n"$w
+sleep 2
+sudo apt-get install python -y
+echo -e $b"\n\n>"$w" Installed package: "$g"Python"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing package: "$g"Python2\n\n"$w
+sleep 2
+sudo apt-get install python2 -y
+echo -e $b"\n\n>"$w" Installed package: "$g"Python2"$w
+sleep 2
+
+clear
+echo -e $b">"$w" Installing package: "$g"Python3\n\n"$w
+sleep 2
+sudo apt-get install python3 -y
+echo -e $b"\n\n>"$w" Installed package: "$g"Python3"$w
+sleep 2
+
+clear
+echo -e $b"\n\n>"$w" Giving programs the pemissions to execute !!"
+sleep 2
+chmod +x venom.py
+chmod +x pld/msfinstall
+
+echo -e $b">"$w" Installing package: "$g"Metasploit\n\n"$w
+sleep 2
+bash tools/msfinstall
+echo -e $b"\n\n>"$w"Installed package: "$g"Metasploit"$w
+sleep 2
+clear
+
+echo -e $b"\n\n>"$w"The dependencies have been installed successfully !!"
+sleep 2
+
+clear
+echo -e $b">"$w" Removing unnecessary items... \n\n"$w
+sleep 2
+sudo apt autoremove -y
+echo -e $b"\n\n>"$w"The unnecessary items have been removed successfully !!"
+sleep 2
+
+clear
+echo -e $r"VENOM"$w" is starting !!"
+sleep 3
+
+python3 venom.py
+
+
