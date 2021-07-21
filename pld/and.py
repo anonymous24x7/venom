@@ -44,7 +44,7 @@ def start():
       print(w+"\n\tLHOST = "+w+r+lh)
       print(w+"\n\tLPORT = "+w+r+lp)
       print(w+"\n\tAPP NAME = "+w+r+an)
-      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"Desktop"+w+" with the name of "+r+an+".apk"+w)
+      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"DESKTOP"+w+" with the name of "+r+an+".apk"+w)
     # 
     elif x == 2 :
       os.system("clear")
@@ -67,7 +67,7 @@ def start():
       print(w+"\n\tLHOST = "+w+r+lh)
       print(w+"\n\tLPORT = "+w+r+lp)
       print(w+"\n\tAPP NAME = "+w+r+an)
-      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"Desktop"+w+" with the name of "+r+an+".apk"+w)
+      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"DESKTOP"+w+" with the name of "+r+an+".apk"+w)
     #  
     elif x == 3 :
       os.system("clear")
@@ -90,8 +90,7 @@ def start():
       print(w+"\n\tLHOST = "+w+r+lh)
       print(w+"\n\tLPORT = "+w+r+lp)
       print(w+"\n\tAPP NAME = "+w+r+an)
-      print(w+r+"\n\n\tPayload"+w+" has been created and stored in the "+w+r+"same directory"+w+" in the name of "+r+an)
-      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"Desktop"+w+" with the name of "+r+an+".apk"+w)
+      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"DESKTOP"+w+" with the name of "+r+an+".apk"+w)
     #  
     elif x == 4 :
       os.system("clear")
@@ -114,7 +113,7 @@ def start():
       print(w+"\n\tLHOST = "+w+r+lh)
       print(w+"\n\tLPORT = "+w+r+lp)
       print(w+"\n\tAPP NAME = "+w+r+an)
-      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"Desktop"+w+" with the name of "+r+an+".apk"+w)
+      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"DESKTOP"+w+" with the name of "+r+an+".apk"+w)
     # 
     elif x == 5 :
       os.system("clear")
@@ -160,7 +159,7 @@ def start():
       print(w+"\n\tLHOST = "+w+r+lh)
       print(w+"\n\tLPORT = "+w+r+lp)
       print(w+"\n\tAPP NAME = "+w+r+an)
-      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"Desktop"+w+" with the name of "+r+an+".apk"+w)
+      print(w+r+"\n\n\tPayload"+w+" has been created and stored in your "+w+r+"DESKTOP"+w+" with the name of "+r+an+".apk"+w)
     #  
     else :
       print(w+"\n\n\t\tThere was an "+r+"error"+w+" while choosing the options !!")
