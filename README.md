@@ -44,11 +44,10 @@ Please use this Tool at your own risk !!
 I am not reponsible for any destruction or damage caused by the TOOL.
 
 # Wish me LUCK💵
+
 [![logo](https://user-images.githubusercontent.com/81870774/126783077-20fcd212-6578-43fc-b14f-a7c6e54e3893.png)](https://www.buymeacoffee.com/anonymous24x7)
 
-
-https://imjo.in/QzaYw6    --INR Payments ONLY
-
+[![mojo](https://user-images.githubusercontent.com/81870774/126783262-d0f254d8-5f01-4bba-bcd1-250a041089e9.png)](https://imjo.in/QzaYw6)
 
 🖤🖤🖤
 
